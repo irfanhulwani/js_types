@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Types</title>
+</head>
+<body>
+        <p id="types"></p>
+
+        <script>
+            let lenght = 16; //ini merupakan type data number
+            let lastname = "Johnson"; //ini merupakan type data string
+            const x ={
+                firstname : "john",
+                lastname : "doe"
+            } //ini merupakan type data object
+            
+            document.getElementById('types').innerHTML = 
+            typeof lenght + "<br>" + //number
+            typeof lastname + "<br>" + //string
+            typeof x; //object
+        </script>
+</body>
+</html>
